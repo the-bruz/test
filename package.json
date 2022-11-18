@@ -1,7 +1,7 @@
 {
   "name": "test",
   "version": "1.0.0",
-  "description": "Hello World",
+  "description": "1.  (1. Within a Github action that runs whenever code is pushed) will fit the automated tests. Because we want the test process to be automatic, we should not run them manually. By using Github action, it will test the code whenever we push code to the server.\r 2. yes.\r 3. No. The \"message\" function seems to interact with a lot of other features, like network requests.\r 4. Yes. The \"max message length\" feature seems to be a basic feature, which does not interact with other features much.",
   "main": "jest-puppeteer.config.js",
   "scripts": {
     "test": "jest"
@@ -17,16 +17,7 @@
     "url": "https://github.com/the-bruz/test/issues"
   },
   "homepage": "https://github.com/the-bruz/test#readme",
-  "jest": {
-    "preset": "jest-puppeteer",
-    "verbose": true
-  },
-  "devDependencies": {
-    "@babel/core": "^7.20.2",
-    "@babel/preset-env": "^7.20.2",
-    "babel-jest": "^29.3.1",
-    "jest": "^29.3.1",
-    "jest-puppeteer": "^6.1.1",
-    "puppeteer": "^19.2.2"
+  "dependencies": {
+    "jest": "^29.3.1"
   }
 }
